@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:text="Explicit Intent"
+        android:text="@string/explicit_intent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view" />
 
@@ -55,7 +55,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:hint="data"
+        android:hint="@string/data"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/implicit_intent">
@@ -76,19 +76,19 @@
             android:id="@+id/open_web_page"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Open Webpage"></RadioButton>
+            android:text="@string/open_webpage"></RadioButton>
 
         <RadioButton
             android:id="@+id/open_phone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Dial Number"></RadioButton>
+            android:text="@string/dial_number"></RadioButton>
 
         <RadioButton
             android:id="@+id/share_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ShareText"></RadioButton>
+            android:text="@string/sharetext"></RadioButton>
     </RadioGroup>
 
     <Button
@@ -97,7 +97,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:onClick="sendImplicitIntent"
-        android:text="Go"
+        android:text="@string/go"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radio" />
@@ -118,7 +118,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:text="Sending &amp; Receiving Data"
+        android:text="@string/sending_amp_receiving_data"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view1" />
 
@@ -129,7 +129,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:hint="Initial Count"
+        android:hint="@string/initial_count"
         app:layout_constraintEnd_toStartOf="@+id/send_button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sending_and_receiving">
@@ -148,7 +148,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:onClick="sendData"
-        android:text="send"
+        android:text="@string/send"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sending_and_receiving" />
 
@@ -158,7 +158,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="TextView"
+        android:text="@string/textview"
         android:textColor="#0E0D0D"
         android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"

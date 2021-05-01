@@ -144,6 +144,7 @@ public class IntentsPlaygroundActivity extends AppCompatActivity {
         bundle.putInt(Constants.MIN_VALUE,-100);
         bundle.putInt(Constants.MAX_VALUE, 100);
 
+        intent.putExtras(bundle);
         startActivityForResult(intent, REQUEST_COUNT);
     }
 
