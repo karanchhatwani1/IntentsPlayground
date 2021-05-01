@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Intents Playground</string>
+    <string name="explicit_intent">Explicit Intent</string>
+    <string name="open_main_activity">Open Main Activity</string>
+</resources>
