@@ -14,3 +14,7 @@ This is a basic application for sending and recieving data and dialing a number 
 ![fpp](https://user-images.githubusercontent.com/68476336/116794984-20da1180-aaef-11eb-85a4-9eb991a730e8.PNG)
 ![fpp](https://user-images.githubusercontent.com/68476336/116794991-2a637980-aaef-11eb-9189-d9364f855ae8.PNG)
 
+
+# APK
+
+You can checkout Apk [here](https://github.com/karanchhatwani1/IntentsPlayground/blob/master/app-debug.apk)
